@@ -7,9 +7,16 @@ public class Main {
 
     }
     
+    // do this one and the lab is complete. really.
+    
     int sumOfNumbers(int n) {
         return 0;
     }
+    
+    
+    
+    
+    
     
     // for Extra Credit
     int gaussianSumOfNumbers(int n) {
@@ -17,5 +24,6 @@ public class Main {
     }
    
     // for Extra extra credit - compare the methods and show which one is faster
-    
+    // google "how to time some java code"
+    // use "System.currentTimeMillis()" to ask the system what time it is.
 }
