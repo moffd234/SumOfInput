@@ -1,6 +1,6 @@
 # SumOfInput
 
-# Sum of the Numbers
+# Sum the Numbers
 
 ## **Objective:**
 * Write a program which prompts the user to input a number, `n`.
