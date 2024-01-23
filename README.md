@@ -18,6 +18,8 @@
 
 ### **Resources:**
 
+This is a pretty advanced topic for this lab. Welcome to Zip Code.
+
 #### timing loops
 
 To time two different Java loops, you can use the `System.currentTimeMillis()` method to get the current time in milliseconds before and after each loop, and then calculate the difference between the two times to get the elapsed time.
