@@ -3,9 +3,15 @@
 # Sum the Numbers
 
 ## **Objective:**
+
 * Write a program which prompts the user to input a number, `n`.
 * The program should respond by printing the sum of the numbers 1 to `n`.
 * **Constraint:** No [Guassian wizardry](http://mathandmultimedia.com/2010/09/15/sum-first-n-positive-integers/) !
+
+### Extra Credit (no, not really)
+
+_If you find this lab to be super simple, then implment these two requirements._ If you're quite lost, skip them for now.
+
 * *Extra Credit* (get 256 pts) create a second method which USES the Gaussian Wizardry
 * **Extra EXTRA Credit** (32,767 pts) create a comparison of the two methods And *time them, showing which one is faster!!!*
 
