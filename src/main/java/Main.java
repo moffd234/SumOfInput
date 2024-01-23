@@ -1,5 +1,6 @@
 /**
  * Created by iyasuwatts on 10/17/17.
+ * Modified by kristofer in Jan 2024
  */
 public class Main {
 
@@ -20,7 +21,7 @@ public class Main {
     }
     
     
-    int getInputNumber() {
+    int getInputNumber() { // gee, may thi sis useful in another lab?
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter any number: ");
 
