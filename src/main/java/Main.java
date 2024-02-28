@@ -10,16 +10,20 @@ public class Main {
         
         int number = getInputNumber();
 
+        // Calculate time with sumOfNumbers and time it using the system time
         final long sumStartTime = System.currentTimeMillis();
         int sum = sumOfNumbers(number);
         final long sumEndTime = System.currentTimeMillis();
         final long totalSumTime = sumEndTime - sumStartTime;
 
+        // Calculate time with gaussianSumOfNumbers and time it using the system time
         final long gStartTime = System.currentTimeMillis();
         int gaussianSum = gaussianSumOfNumbers(number);
         final long gEndTime = System.currentTimeMillis();
         final long totalGTime = gEndTime - gStartTime;
-        
+
+
+
         System.out.println("Regular sum = " + sum + " Calculated in " + totalSumTime);
         System.out.println("Gaussian sum = " + gaussianSum + " Calculated in " + totalGTime);
 
