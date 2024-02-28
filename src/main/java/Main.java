@@ -5,19 +5,30 @@
 import java.util.Scanner;
 public class Main {
 
+    // Finished lab
     public static void main(String[] args){
         
         int number = getInputNumber();
-        
+
+        final long sumStartTime = System.currentTimeMillis();
         int sum = sumOfNumbers(number);
+        final long sumEndTime = System.currentTimeMillis();
+        final long totalSumTime = sumEndTime - sumStartTime;
+
+        final long gStartTime = System.currentTimeMillis();
+        int gaussianSum = gaussianSumOfNumbers(number);
+        final long gEndTime = System.currentTimeMillis();
+        final long totalGTime = gEndTime - gStartTime;
         
-        System.out.println(sum);
+        System.out.println("Regular sum = " + sum + " Calculated in " + totalSumTime);
+        System.out.println("Gaussian sum = " + gaussianSum + " Calculated in " + totalGTime);
 
     }
     
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
     static int sumOfNumbers(int n) {
+
         int sum = 0;
         for(int i = 0; i <= n; i++){
             sum += i;
@@ -41,8 +52,9 @@ public class Main {
     
     
     // for Extra Credit
-    int gaussianSumOfNumbers(int n) {
-        return 0;
+    static int gaussianSumOfNumbers(int n) {
+        int numerator = n * (1 + n);
+        return numerator / 2;
     }
    
     // for Extra extra credit - compare the methods and show which one is faster
