@@ -2,7 +2,7 @@
  * Created by iyasuwatts on 10/17/17.
  * Modified by kristofer in Jan 2024
  */
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
@@ -17,7 +17,7 @@ public class Main {
     
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
-    int sumOfNumbers(int n) {
+    static int sumOfNumbers(int n) {
         int sum = 0;
         for(int i = 0; i <= n; i++){
             sum += i;
@@ -26,7 +26,7 @@ public class Main {
     }
     
     
-    int getInputNumber() { // gee, may thi sis useful in another lab?
+    static int getInputNumber() { // gee, may thi sis useful in another lab?
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter any number: ");
 
