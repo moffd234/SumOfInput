@@ -18,14 +18,13 @@ public class Main {
 
         // Calculate time with gaussianSumOfNumbers and time it using the system time
         final long gStartTime = System.currentTimeMillis();
-        int gaussianSum = gaussianSumOfNumbers(number);
+        final int gaussianSum = gaussianSumOfNumbers(number);
         final long gEndTime = System.currentTimeMillis();
         final long totalGTime = gEndTime - gStartTime;
 
 
-
-        System.out.println("Regular sum = " + sum + " Calculated in " + totalSumTime);
-        System.out.println("Gaussian sum = " + gaussianSum + " Calculated in " + totalGTime);
+        System.out.println("Regular sum = " + sum + " Calculated in " + totalSumTime + "ms");
+        System.out.println("Gaussian sum = " + gaussianSum + " Calculated in " + totalGTime + "ms");
 
     }
     
